@@ -29,6 +29,7 @@
 
 */
 @import url(../../lib/font/pt-serif/pt-serif.css);
+@import url(../../lib/font/pt-serif/pt-sans-caption.css);
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 @import url(../../lib/font/aldrich/aldrich.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
@@ -144,7 +145,8 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #444444;
-  font-family: "Source Sans Pro", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif;*/
+  font-family: "PT Sans Caption", sans-serif;
   font-weight: bold;
   line-height: 1.2;
   letter-spacing: normal;
