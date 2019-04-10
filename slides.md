@@ -29,7 +29,7 @@
 
 ### Definition
 
-*„DevOps is also characterized by operations staff making use many of the same techniques as developers for their systems work.“* [🔗](https://theagileadmin.com/what-is-devops/)
+*„DevOps is also characterized by operations staff making use of many of the same techniques as developers for their systems work.“* [🔗](https://theagileadmin.com/what-is-devops/)
 
 --
 
@@ -85,7 +85,7 @@ systemctl restart apache2
 
 ### Wie entwickeln wir Software?
 * Code schreiben
-* Versionskontrolle: Commit, Merge, Clone, Pull Request,  ...
+* Versionskontrolle: Clone, Commit, Merge, Pull Request,  ...
 * Testsuite laufen lassen
 * Releaseartefakt bauen
 * Ausspielen auf Testsystem
@@ -252,7 +252,7 @@ resource "vsphere_virtual_machine" "vm" {
 </code></pre>
 
 --
-### Reifegrade IaC (laut Terraform)
+### Reifegrade IaC (laut Hashicorp)
 1. From Manual Changes to Semi-Automation
 
 2. From Semi-Automation to Infrastructure as Code
@@ -272,7 +272,7 @@ resource "vsphere_virtual_machine" "vm" {
 * Set von einem oder mehreren Prozessen
 * isoliert vom restlichen System
 * enthalten alle Dateien, die von den Prozessen benötigt werden
-* ***konsistent*** und ***portabel***
+* ***konsistent*** (über alle Environments) und ***portabel***
 
 Note:
 konsistent ~ über alle Environments hinweg
